@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.logo {
+  height: 40px;
+}
+
+.search-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.search-field {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 2%;
+}
+
+.actions-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 7%;
+ 
+}
+.large-icon {
+  font-size: 32px; 
+  color: white;
+}
+.navbar{
+  background-color: #0f0c64; /* sea blue shade */
+  color: white;
+}
+.icon-section{
+  color: aliceblue;
+}
+.section2{
+   background-color: aliceblue;
+}
+h3{
+  padding-left: 15%;
+}

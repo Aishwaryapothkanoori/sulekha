@@ -1,0 +1,30 @@
+<mat-toolbar color="primary" class="navbar">
+  <!-- Logo -->
+   
+  <div class="logo-section">
+    <button mat-icon-button>
+      <mat-icon class="large-icon">menu</mat-icon>
+    </button>
+    <h3 style="font-family: cursive;">Sulekha</h3>
+    <!-- <img src="https://www.sulekha.com/assets/images/sulekha_logo_v2.png" alt="Logo" class="logo"> -->
+  </div>
+
+  <!-- Search Bar -->
+  <div class="search-section">
+    <mat-form-field appearance="outline" class="search-field">
+      <input matInput placeholder="What service do you need?">
+      <button mat-icon-button matSuffix color="warn">
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+  </div>
+
+  <!-- Action Buttons -->
+  <div class="actions-section">
+    <button mat-button class="section2">List Your Business</button>
+    <button mat-icon-button (click)="goToLogin()">
+      <mat-icon class="icon-section" routerLink="login">account_circle</mat-icon>
+    </button>
+    
+  </div>
+</mat-toolbar>
