@@ -1,0 +1,26 @@
+<div class="hero-section">
+  <h1>Fast, Free way to get experts</h1>
+  <p>Discover Top Experts in <b>Tuni</b></p>
+  <h3 class="highlight">Skilled, Trusted, Reliable!</h3>
+
+  <mat-form-field class="search-field" appearance="outline">
+    <mat-label>Find your service</mat-label>
+    <input matInput placeholder="Search services">
+    <button mat-icon-button matSuffix>
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-form-field>
+</div>
+<div class="categories-wrapper">
+  <div *ngFor="let category of categories" class="category-card" [ngStyle]="{'background-color': category.color}">
+    <h3>{{ category.title }}</h3>
+    <div class="icons-row">
+      <div *ngFor="let item of category.items" class="icon-circle">
+        <img [src]="item.image" [alt]="item.name" />
+
+        <!-- <span>{{ item }}</span> -->
+      </div>
+    </div>
+    <a href="#" class="view-all">View all</a>
+  </div>
+</div>

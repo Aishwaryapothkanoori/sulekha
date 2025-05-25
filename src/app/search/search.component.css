@@ -1,0 +1,95 @@
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #1b1f5e, #3f0450);
+  color: white;
+}
+
+.highlight {
+  color: orange;
+  margin-top: 8px;
+}
+
+.search-field {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.categories-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.category-card {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-card h3 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #333;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.icon-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.view-all {
+  margin-top: 10px;
+  display: inline-block;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+/* Optional: responsive tweaks */
+@media (max-width: 768px) {
+  .categories-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-card {
+    width: 90%;
+  }
+}
+

@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,6 +15,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeImprovementComponent } from './home-improvement/home-improvement.component';
+import { EducationTrainingComponent } from './education-training/education-training.component';
+import { ServicesComponent } from './services/services.component';
+import { SearchComponent } from './search/search.component';
+
 
 
 @NgModule({
@@ -21,7 +27,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeImprovementComponent,
+    EducationTrainingComponent,
+    ServicesComponent,
+    SearchComponent
+    
    
      
 
